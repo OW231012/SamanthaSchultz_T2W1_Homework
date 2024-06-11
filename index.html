@@ -1,0 +1,158 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Bootstrap Tutorial</title>
+</head>
+<body>
+    <!-- heading tags --> 
+        <h1>Boostrap 5 Tutorial</h1> 
+        <h2>this is an h2</h2> 
+        <h3>this is an h3</h3>
+        <h2 class="h3">This is an h2 tag with an h3 class</h2>
+
+    <!-- display headings -->
+        <h1 class="display-1">Display 1 heading</h1>
+        <h1 class="display-2">Display 2 heading</h1>
+        <h1 class="display-3">Display 3 heading</h1>
+        <h1 class="display-4">Display 4 heading</h1>
+        <h1 class="display-5">Display 5 heading</h1>
+        <h1 class="display-6">Display 6 heading</h1>
+
+        <p class="display-1">p tag with display-1 class</p>
+
+    <!-- lead text & alignment -->
+        <small>this is small text</small>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p class="lead text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p class="lead text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p class="lead text-end">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <!-- text decoration & font weight -->
+        <p class="text-decoration-underline">This is underlined text</p>
+        <p class="text-decoration-line-through">This is line through text</p>
+        <p class="fw-bold">This is bold text</p>
+        <small>this is small text</small>
+
+    <!-- text colours -->
+    <p class="text-primary">theme primary colour</p>
+    <p class="text-secondary">theme secondary colour</p>
+    <p class="text-info">theme info colour</p>
+    <p class="text-warning">theme warning colour</p>
+    <p class="text-success">theme success colour</p>
+    <p class="text-danger">theme danger colour</p>
+    <p class="text-muted">theme muted colour</p>
+
+    <!-- bg colors -->
+    <p class="text-white bg-primary">This is a p tag with a background</p>
+    <p class="text-white bg-secondary">This is a p tag with a background</p>
+    <p class="text-white bg-info">This is a p tag with a background</p>
+    <p class="text-white bg-warning">This is a p tag with a background</p>
+    <p class="text-white bg-success">This is a p tag with a background</p>
+    <p class="text-white bg-danger">This is a p tag with a background</p>
+    <p class="text-white bg-muted">This is a p tag with a background</p>
+
+    <!-- basic buttons -->
+    <h2>Buttons</h2>
+
+    <button class="btn btn-primary">Primary button</button>
+    <button class="btn btn-secondary">Secondary button</button>
+    <button class="btn btn-info">Info button</button>
+    <button class="btn btn-warning">Warning button</button>
+    <button class="btn btn-success">Success button</button>
+    <button class="btn btn-danger">Danger button</button>
+
+    <!-- anchor tags as buttons -->
+    <h2>Links as Buttons</h2>
+
+    <a href="#" class="btn btn-info">Info anchor tag</a>
+
+    <!-- button sizes -->
+    <h2>Button Sizes</h2>
+
+    <button class="btn btn-lg btn-danger">This is a large button</button>
+    <button class="btn btn-sm btn-info">This is a small button</button>
+
+    <!-- outline styles -->
+    <h2>Button Styles</h2>
+
+    <button class="btn btn-outline-success">Outlined button</button>
+    <button class="btn btn-outline-secondary btn-lg">LARGE Outlined button</button>
+
+    <!-- button groups -->
+    <h2>Button Groups</h2>
+
+    <div class="btn-group">
+        <a href="#" class="btn btn-primary">First Button</a>
+        <a href="#" class="btn btn-warning">Second Button</a>
+        <a href="#" class="btn btn-success">Third Button</a>
+        <a href="#" class="btn btn-info">Fourth Button</a>
+    </div>
+
+    <!-- margin and padding -->
+    <div class="bg-primary m-1 p-1">small margin and padding</div>
+    <div class="bg-primary m-3 p-3">medium margin and padding</div>
+    <div class="bg-primary m-5 p-5">large margin and padding</div> 
+
+    <!-- borders -->
+    <div class="m-3 p-3 border">Default Border</div>
+    <div class="m-3 p-3 border-top border-end">Individual Borders</div>
+    <div class="m-3 p-3 border-start border-success">Border success colour at start</div>
+    <div class="m-3 p-3 border-start border-danger border-5">Thicker start border colour dander</div>
+    <div class="m-3 p-3 rounded border border-5">rounded corners</div>
+    <div class="m-5 p-5 rounded-pill border border-5">rounded pill corners</div>
+    <div class="m-5 p-5 rounded-pill bg-primary">rounded pill background</div>
+
+
+    <!-- box shadow -->
+    <div class="m-3 p-3 shadow-sm">elements with small box shadow</div>
+    <div class="m-3 p-3 shadow">elements with medium box shadow</div>
+    <div class="m-3 p-3 shadow-lg">elements with large box shadow</div>
+
+    <!-- font weight-->
+    <p class="fw-bold">bold text</p>
+    <p class="fw-bolder">bolder text</p>
+    <p>normal text</p>
+    <p class="fw-light">light text</p>
+    <p class="fst-italic">normal italic text</p>
+    <p class="fst-italic fw-light">light italic text</p>
+
+
+    <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/la.jpg" alt="Los Angeles" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/chicago.jpg" alt="Chicago" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/ny.jpg" alt="New York" class="d-block w-100">
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
